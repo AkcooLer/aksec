@@ -1,0 +1,17 @@
+[build]
+publish = "dist"
+command = "pnpm run build"
+
+[build.environment]
+NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/styles"
+  to = "https://giscus.app"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
