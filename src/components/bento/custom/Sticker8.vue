@@ -8,7 +8,7 @@
       <!-- 椭圆 -->
       <div class="grid w-full flex-1 flex-shrink-0 place-items-center px-[20px]">
         <div class="h-[60px] w-full rounded-[30px] bg-white text-[36px] leading-[60px] dark:bg-[#30363d]">
-          {{ `Arvin` }}
+          {{ `Ak'Blog` }}
         </div>
       </div>
       <!-- 描述 -->
