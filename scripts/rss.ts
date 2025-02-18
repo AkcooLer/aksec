@@ -6,10 +6,10 @@ import MarkdownIt from 'markdown-it'
 import type { FeedOptions, Item } from 'feed'
 import { Feed } from 'feed'
 
-const DOMAIN = 'https://mmeme.me'
+const DOMAIN = 'https://www.akcool.cn'
 const AUTHOR = {
-  name: 'Arvin',
-  email: 'w2545589993@gmail.com',
+  name: 'Ak',
+  email: '2813955543@qq.com',
   link: DOMAIN,
 }
 const markdown = MarkdownIt({
@@ -26,15 +26,15 @@ async function buildBlogRSS() {
   const files = await fg('pages/posts/*.md')
 
   const options = {
-    title: 'Arvin',
-    description: 'Arvin\' Blog',
-    id: 'https://mmeme.me/',
-    link: 'https://mmeme.me/',
+    title: 'Ak',
+    description: 'Ak\' Blog',
+    id: 'https://www.akcool.cn/',
+    link: 'https://www.akcool.cn/',
     copyright: 'CC BY-NC-SA 4.0 2021 © Anthony Fu',
     feedLinks: {
-      json: 'https://mmeme.me/feed.json',
-      atom: 'https://mmeme.me/feed.atom',
-      rss: 'https://mmeme.me/feed.xml',
+      json: 'https://www.akcool.cn/feed.json',
+      atom: 'https://www.akcool.cn/feed.atom',
+      rss: 'https://www.akcool.cn/feed.xml',
     },
   }
   const posts: any[] = (
@@ -71,8 +71,8 @@ async function buildBlogRSS() {
 
 async function writeFeed(name: string, options: FeedOptions, items: Item[]) {
   options.author = AUTHOR
-  options.image = 'https://mmeme.me/avatar.png'
-  options.favicon = 'https://mmeme.me/logo.png'
+  options.image = 'https://www.akcool.cn/avatar.png'
+  options.favicon = 'https://www.akcool.cn/logo.png'
 
   const feed = new Feed(options)
 

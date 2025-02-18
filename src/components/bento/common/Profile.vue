@@ -7,7 +7,7 @@ const typedInstance = ref<Typed>()
 const iconRef = ref<HTMLElement | null>(null)
 const avatarBgRef = ref<HTMLElement | null>(null)
 const avatarImgRef = ref<HTMLElement | null>(null)
-const currentAvatar = ref('Arvin')
+const currentAvatar = ref('Ak')
 function handleSwitch() {
   clearAllSetTimeout()
   avatarImgRef.value?.classList.add('expanding-avatar-circle')

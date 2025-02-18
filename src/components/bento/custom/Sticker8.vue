@@ -13,7 +13,7 @@
       </div>
       <!-- 描述 -->
       <div class="h-1/4 max-h-[42px] w-full flex-shrink-0 border-4 border-[var(--cover-main-color)] rounded-[10px] border-solid bg-white p-[2px] dark:bg-[#30363d]">
-        mmeme.me
+        akcool.cn
       </div>
     </div>
   </div>

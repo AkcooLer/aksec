@@ -21,7 +21,7 @@
       </div>
 
       <div class="text-[24px] text-[#ffffff] font-bold leading-normal tracking-widest font-[fantasy]">
-        {{ `< Arvin  /> ` }}
+        {{ `< Ak  /> ` }}
       </div>
     </div>
 

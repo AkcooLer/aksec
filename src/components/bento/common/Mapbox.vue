@@ -17,7 +17,7 @@ function marsOnloaded(map: mapboxgl.Map) {
 
   mapInstance.on('load', () => {
     const el = document.createElement('div')
-    el.innerHTML = `<logo-marker name="${'/logo.svg'}" />`
+    el.innerHTML = `<logo-marker name="${'/logo.png'}" />`
     new mapboxgl.Marker(el)
       .setLngLat(SITE.coordinate as LngLatLike)
       .addTo(map!)

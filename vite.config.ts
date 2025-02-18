@@ -190,7 +190,7 @@ export default defineConfig({
               ? fs.copy(`${id.slice(0, -3)}.png`, `public/${path}`)
               : generateOg(frontmatter.title!.trim(), `public/${path}`, (frontmatter.date as string)),
           )
-          frontmatter.image = `https://mmeme.me/${encodeURIComponent(path)}`
+          frontmatter.image = `https://www.akcool.cn/${encodeURIComponent(path)}`
           frontmatter.description = frontmatter?.desc as string || ''
         })()
         const head = defaults(frontmatter, options)
