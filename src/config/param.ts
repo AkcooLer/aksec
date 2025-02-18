@@ -11,7 +11,7 @@ export const SITE = {
   title: '博客',
   author: 'Ak',
   description: '记录生活',
-  profileContent: '我是Ak，目前生活在北京，一名网络安全技术爱好者，目前在做安全运营，运维方面工作。',
+  profileContent: 'Im\'Ak,一名网络安全技术爱好者，目前在北京，记录和分享学习过程中的技巧与知识。',
   keywords: 'AK, Blog, CTF, 安全, 博客',
   coordinate: [118.888175, 32.048268],
   icon: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
