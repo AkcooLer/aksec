@@ -13,6 +13,7 @@ cover: /logo.png
 
 一、Ollama搭建
 ---------------
+
 Ollam官网：ollama.com
 
 ![图片1]( "/og/1.png")
@@ -37,6 +38,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 修改配置文件：/etc/systemd/system/ollama.
 service
 ```
+
 ```bash
 Environment="OLLAMA_HOST=0.0.0.0:8434"
 ```
@@ -48,7 +50,7 @@ sudo systemctl start ollama
 sudo systemctl status ollama
 ```
 
-#### DeepSeek-r1 相关版本及大小参考：
+#### DeepSeek-r1 相关版本及大小参考
 
 ![图片3]( "/og/3.png")
 
@@ -58,7 +60,7 @@ sudo systemctl status ollama
 
 执行命令下载和运行模型。  
 
-```bash 
+```bash
 如：ollama run deepseek-r1:1.5b
 ```
 
@@ -68,9 +70,10 @@ Ollama还提供了一个REST API，允许你通过编程方式访问模型。默
 ```bash
 curl http://localhost:11434/api/generate -d '{"model": "qwen2.5:1.5b", "prompt": "Your prompt here", "stream": false}'
 ```
-#### ollama 常用命令参考
-![图片5]( "/og/5.png")
 
+#### ollama 常用命令参考
+
+![图片5]( "/og/5.png")
 
 ollama 提供了丰富的命令行工具，方便用户对模型进行管理。
 
@@ -95,6 +98,7 @@ ollama 提供了丰富的命令行工具，方便用户对模型进行管理。
 通过 Open WebUI 可以实现聊天机器人、本地知识库、图像生成等丰富的大模型应用功能。
 在开始之前，请确保你的系统已经安装了 docker。
 新建文件 docker-compose.yml，内容参考：
+
 ```docker
 ervices:
   open-webui:
@@ -124,8 +128,9 @@ ervices:
 
 这里需注意 **environment** 环境变量部分的自定义设置。许多设置也可以通过登录后在 web 界面进行修改。
 
-在该目录下执行该命令以启动服务：**docker-compose up -d**。成功后即可通过浏览器访问：http://localhost:8080。
+在该目录下执行该命令以启动服务：**docker-compose up -d**。成功后即可通过浏览器访问：<http://localhost:8080。>
 服务镜像更新参考：
+
 ```bash
 # 拉取新镜像
 docker-compose pull
@@ -134,11 +139,12 @@ docker-compose up -d --remove-orphans
 # 清理镜像
 docker image prune
 ```
-> open-webui 详细文档参考：https://docs.openwebui.com/  getting-started/env-configuration  
-> ollama 官方站：https://ollama.com  
->  ollama 中文站：https://ollama.org.cn
->  ollama 入门：https://ollama.readthedocs.io/quickstart/  
-> ollama 常见问题：https://ollama.readthedocs.io/faq/  
-> 魔塔社区：https://modelscope.cn  
-> HF Mirror：https://hf-mirror.com  
-> open-webui 文档：https://docs.openwebui.com
+
+> open-webui 详细文档参考：<https://docs.openwebui.com/>  getting-started/env-configuration  
+> ollama 官方站：<https://ollama.com>  
+> ollama 中文站：<https://ollama.org.cn>
+>  ollama 入门：<https://ollama.readthedocs.io/quickstart/>  
+> ollama 常见问题：<https://ollama.readthedocs.io/faq/>  
+> 魔塔社区：<https://modelscope.cn>  
+> HF Mirror：<https://hf-mirror.com>  
+> open-webui 文档：<https://docs.openwebui.com>
