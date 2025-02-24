@@ -63,7 +63,7 @@ export const PROJECTS = [
   {
     name: 'AK',
     desc: '个人网站',
-    cover: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/images20230625154539.png',
+    cover: '/1.png',
     demoUrl: 'https://www.akcool.cn/',
     repoUrl: 'https://github.com/akcooler',
   },
