@@ -10,8 +10,8 @@ export const navFilter = [
 export const SITE = {
   title: '博客',
   author: 'Ak',
-  description: '记录生活',
-  profileContent: '我是Ak，目前生活在北京，一名网络安全技术爱好者，目前在做安全运营，运维方面工作。',
+  description: '记录与分享',
+  profileContent: 'Im Ak 一名网络安全从业者,一切源于兴趣，从兴趣到生活，从兴趣到职业,一名只会Web的菜鸡，希望自己可以向上努力！',
   keywords: 'AK, Blog, CTF, 安全, 博客',
   coordinate: [118.888175, 32.048268],
   icon: 'https://cdn.jsdelivr.net/gh/pinky-pig/pic-bed/imageslogo.svg',
